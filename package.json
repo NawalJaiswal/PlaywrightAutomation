@@ -1,0 +1,32 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "Playground for Playwright automation",
+  "keywords": [
+    "Playwright",
+    "automation",
+    "testing",
+    "API",
+    "testing"
+  ],
+  "homepage": "https://github.com/NawalJaiswal/PlaywrightAutomation#readme",
+  "bugs": {
+    "url": "https://github.com/NawalJaiswal/PlaywrightAutomation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NawalJaiswal/PlaywrightAutomation.git"
+  },
+  "license": "ISC",
+  "author": "NawalJaiswal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "playwright": "^1.64.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
