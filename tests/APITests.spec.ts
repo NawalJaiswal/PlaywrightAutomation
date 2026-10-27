@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import  APIData from '../mocks/APIData.json';
 
 test.describe("API Tests", () => {
     test.describe.configure({ mode: 'serial'});
@@ -28,10 +29,7 @@ test.describe("API Tests", () => {
 
     test("Update user", async ({request}) => {
         const response = await request.put(`https://reqres.in/api/users/${userId}`, {
-            data:{
-                'name' : "Nawal",
-                'job' : 'QA Engineer'
-            },
+            data: APIData,
             headers: {
                 'Accept': 'application/json'
             }
